@@ -24,16 +24,11 @@ In timing diagram Q0 is changing as soon as the negative edge of clock pulse is 
 
 **Procedure**
 
+/* write all the steps invloved */
 
 **PROGRAM**
-
- Program for 4 Bit Ripple Counter and verify its truth table in quartus using Verilog programming.
 ```
- Developed by:NIRMAL N 
- RegisterNumber:212223240107
-```
-```
-module ex12(clk, rst, count);
+module EXP12DE(clk, rst, count);
 input wire clk;
 input wire rst;
 output reg [3:0] count;
@@ -48,12 +43,22 @@ end
 endmodule
 ```
 
+```
+/* Program for 4 Bit Ripple Counter and verify its truth table in quartus using Verilog programming.
+
+Developed by: RITHVIK S
+RegisterNumber: 212223100045
+*/
+```
+
 **RTL LOGIC FOR 4 Bit Ripple Counter**
 
-<img width="704" height="291" alt="image" src="https://github.com/user-attachments/assets/f075c430-a98d-443f-b15b-6a02226be4fb" />
+<img width="788" height="335" alt="502191311-4c8096d8-cad9-4d41-9cbd-e1ede8113038" src="https://github.com/user-attachments/assets/d05b8222-fa42-40ca-a722-a0eef59dc2f8" />
 
 **TIMING DIGRAMS FOR 4 Bit Ripple Counter**
 
-<img width="858" height="233" alt="image" src="https://github.com/user-attachments/assets/17aa0d8b-3932-4550-a9bb-2e16ff24c7b4" />
+<img width="1468" height="766" alt="502192025-78996514-67e4-4300-aa0c-256ab03eb551" src="https://github.com/user-attachments/assets/42ab43f1-df41-4eb9-93e6-461e89f5b832" />
+
 **RESULTS**
-Thus,the 4-bit-ripple-counter is implemented using Verilog and its functionality is validated with the truth table and timing diagrams.
+
+ Thus implementing 4 Bit Ripple Counter using Verilog and validating their functionality using their functional tables is done successfully.

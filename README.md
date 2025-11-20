@@ -1,3 +1,6 @@
+# date 12.09.25
+
+
 # 4-BIT-RIPPLE-COUNTER
 
 **AIM:**
